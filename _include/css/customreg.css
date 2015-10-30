@@ -1,0 +1,292 @@
+body{
+	background:#9B9B9B;
+	color:#FFFFFF;
+	font-weight:300;
+	font-size:16px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a{
+	color:#FFCC99;
+	text-decoration: none;
+	cursor: pointer;
+	
+	-webkit-transition: color 0.1s linear 0s;	
+	   -moz-transition: color 0.1s linear 0s;
+		 -o-transition: color 0.1s linear 0s;
+		    transition: color 0.1s linear 0s;
+}
+
+a:hover,
+a:active,
+a:focus{
+	outline: 0;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+a img {
+	border: none;
+}
+
+a > img {
+	vertical-align: bottom;	
+}
+
+
+
+/* ==================================================
+   Registration Form
+================================================== */
+#er1
+{
+	color:red;
+	position:fixed;
+}
+#feed
+		{
+			position:fixed;
+			top:50%;
+			left:80%;
+			color:#fff;
+		}
+		#feed a
+		{
+			color:#fff;
+			
+		}
+		#feed a:hover
+		{
+			text-decoration:none;
+		}
+		#er
+		{
+			//position:fixed;
+			//top:3%;
+			//left:80
+		}
+	#ename1,#eemail1,#emob1,#ecol1,#ename2,#eemail2,#emob2,#ecol2,#ename3,#eemail3,#emob3,#ecol3,#ename4,#eemail4,#emob4,#ecol4,#er1,#event,#spojm,#use,#eteam,#ebranch,#esemester,#epassword,#econfirmpassword
+		{
+			//position:fixed;
+			color:#FFFFFF;
+			font-family: "Comic Sans MS";
+			font-size: 15px;
+			//left:3%;
+			//top:50%;
+		}
+		
+	.ex-form {
+		position:relative;
+		margin:0 auto;
+		width:440px;
+		min-height: 400px;
+		max-height:20000px;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size:12px;
+		padding:50px;
+		background:none;
+
+		-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33969696,endColorstr=#33969696);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33969696,endColorstr=#33969696);
+		zoom: 1;
+	}
+		h1, h2 {
+			margin-top:0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+			font-size:18px;
+			color: #000000;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		h2 {
+			margin:30px 0 10px;
+			font-size:14px;
+		}
+		.ui-progressbar {
+			background: #FFFFFF!important;
+			border: medium none;
+			border-radius: 15px;
+			box-shadow: 0 1px 2px #aaa inset;
+		}
+		.ui-progressbar .ui-progressbar-value {
+			background: none;
+			-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#98c8a9,endColorstr=#e9e1a8);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#98c8a9,endColorstr=#e9e1a8);
+			
+			background: -moz-linear-gradient( left, #98c8a9, #e9e1a8 );
+			background: -webkit-linear-gradient( left, #98c8a9, #e9e1a8 );
+			background: -o-linear-gradient( left, #98c8a9, #e9e1a8 );
+			background: -khtml-linear-gradient( left, #98c8a9, #e9e1a8 );
+			background: linear-gradient( to right, #98c8a9, #e9e1a8 );
+			
+			border: none;	
+			border-radius: 15px;
+			box-shadow: 0 1px 2px #999 inset;
+		}
+		
+		#amount {
+			position: absolute;
+			margin: -19px 0 0 -30px;
+			width: 100%;
+			font-size: 10px;
+			font-weight: bold;
+			color: #677764;
+			text-align: center;
+		}
+		.form-panel fieldset {
+			width:430px;
+			min-height:60px;
+			margin:0 auto 20px;
+			padding:20px 0;			
+			border: none;
+			background:none;
+			background: rgba(2, 2, 2, 0.7);
+			-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff,endColorstr=#33ffffff);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff,endColorstr=#33ffffff);
+			zoom: 1;
+		}
+			.form-panel label, .form-panel .label {
+				width: 100%;
+				clear: left;
+				cursor: pointer;
+			}
+				.form-panel .title {
+					float:left;
+					padding-top:5px;
+					margin-right:10px;
+					font-size: 15px;
+					width:130px;
+					text-align:right;
+					color: #ffffff;
+				}
+				.form-panel .input {
+					float: left;
+					padding: 3px;
+					margin-bottom: 13px;
+					border-radius: 12px;
+					
+					background: none;
+					-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#98c8a9,endColorstr=#e9e1a8);
+					filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#98c8a9,endColorstr=#e9e1a8);
+			
+					background: -moz-linear-gradient( top, #98c8a9, #e9e1a8 );
+					background: -webkit-linear-gradient( top, #98c8a9, #e9e1a8 );
+					background: -o-linear-gradient( top, #98c8a9, #e9e1a8 );
+					background: -khtml-linear-gradient( top, #98c8a9, #e9e1a8 );
+					background: linear-gradient( to bottom, #98c8a9, #e9e1a8 );
+				}
+					.form-panel .input1, .form-panel textarea {
+						float: left;
+						padding: 8px 13px;
+						margin: -3px;
+						width: 240px;
+						height: 12px;
+						line-height: 12px;
+						font-size: 12px;
+						color: #000000;
+						border: 1px solid #D7D6D5;
+						cursor: text;
+						border-radius: 12px;
+						box-shadow: 0 1px 2px #999 inset;
+					}
+						.form-panel .input1:focus, .form-panel textarea:focus {
+							padding: 5px 10px;
+							margin: 0;
+							border-color: #fff;
+							box-shadow: none ;
+							outline: 0 none transparent;
+						}
+					.form-panel textarea {
+						height: 60px;
+					}
+					
+			#thanks {
+				text-align:center;
+			}
+				#thanks p {
+					margin-top:58px;
+					font-size:18px;
+					color: #6e6a65;
+				}
+	.ex-form button {
+		float:right;
+		padding: 15px 20px 14px;
+		margin-left: 30px;
+		color: black;
+		text-transform: uppercase;
+		font-size: 10px;
+		font-weight: bold;
+		border: 1px solid #fff;
+		background: #fff;
+		
+		background: -moz-linear-gradient( top, #ffffff, #333 );
+		background: -webkit-linear-gradient( top, #ffffff, #333 );
+		background: -o-linear-gradient( top, #ffffff, #333 );
+		background: -khtml-linear-gradient( top, #ffffff, #333 );
+		background: linear-gradient( to bottom, #ffffff, #333 );
+		
+		border-radius: 25px;
+		box-shadow: 0 1px 2px #787878;
+		
+		cursor: pointer;
+	}
+	
+	.ex-form #submit
+	{
+		
+		padding: 15px 20px 14px;
+		margin-left: 30px;
+		color: black;
+		text-transform: uppercase;
+		font-size: 10px;
+		font-weight: bold;
+		border: 1px solid #fff;
+		background: #fff;
+		
+		background: -moz-linear-gradient( top, #ffffff, #333 );
+		background: -webkit-linear-gradient( top, #ffffff, #333 );
+		background: -o-linear-gradient( top, #ffffff, #333 );
+		background: -khtml-linear-gradient( top, #ffffff, #333 );
+		background: linear-gradient( to bottom, #ffffff, #333 );
+		
+		border-radius: 25px;
+		box-shadow: 0 1px 2px #787878;
+		
+		cursor: pointer;
+	}
+		.ex-form button:hover , .ex-form #submit:hover{
+			opacity: 0.8;
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+			filter: alpha(opacity=80);
+		}
+		.ex-form button:disabled , .ex-form #submit:disabled{
+			cursor: default;
+			opacity: 0.7;
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+			filter: alpha(opacity=60);
+			
+		}
+	#back {
+		padding-left: 15px;
+	}
+		#back span{
+			left: -5px
+		}
+	#next {
+		padding-right: 15px;
+	}
+		#next span{
+			right: -5px
+		}
+		.ex-form button span, .ex-form #submit span {
+			position: relative;
+			padding: 2px 5px;
+			top: -1px;
+			background: #FBF9F7;
+			border: 1px solid #d9dee0;	
+			border-radius: 10px;
+		}
+		
+		h3
+		{
+		color:white;
+		}

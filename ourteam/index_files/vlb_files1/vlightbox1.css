@@ -1,0 +1,95 @@
+#vlightbox1 {
+	width:1124px;
+	zoom:1;	
+}
+#vlightbox1 .vlightbox1 {
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	position:relative;
+	width:160px;
+	overflow:hidden;
+	vertical-align:top;
+	margin:20px;
+	font-family:Trebuchet,Tahoma,Arial,sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:center;
+	color:#000;
+	outline:none;
+	padding:10px;
+	border:1px solid #eee;
+	background:#fff;
+	box-shadow:0 2px 4px rgba(0,0,0,0.1);
+	-webkit-transform:rotate(-3deg);
+	-moz-transform:rotate(-3deg);
+	-ms-transform:rotate(-3deg);
+	-o-transform:rotate(-3deg);
+	transform:rotate(-3deg);
+	
+    -webkit-transform-style:preserve-3d;
+}
+#vlightbox1 .vlightbox1 a{
+	margin:0;
+}
+#vlightbox1 .vlightbox1 img{
+	display:block;
+	border:none;
+	margin:0;
+}
+#vlightbox1 .vlightbox1 div {display:none}
+
+#vlightbox1 .vlightbox1:nth-child(even){
+    -webkit-transform:rotate(3deg) scale(1.05);
+    -moz-transform:rotate(3deg) scale(1.05);
+    -ms-transform:rotate(3deg) scale(1.05);
+    -o-transform:rotate(3deg) scale(1.05);
+    transform:rotate(3deg) scale(1.05);
+}
+/*
+#vlightbox1 .vlightbox1:nth-child(5n){
+  -webkit-transform:rotate(-4deg) scale(0.9);
+  -moz-transform:rotate(-4deg) scale(0.9);
+  -ms-transform:rotate(-4deg) scale(0.9);
+  -o-transform:rotate(-4deg) scale(0.9);
+  transform:rotate(-4deg) scale(0.9);
+  position:relative;
+  left:-10px
+}*/
+#vlightbox1 .vlightbox1{
+	-moz-transition:all 0.1s ease-out;
+	-o-transition:all 0.1s ease-out;
+	-webkit-transition:all 0.1s ease-out;
+	transition:all 0.1s ease-out;
+}
+#vlightbox1 .vlightbox1:hover{
+	position:relative;
+	z-index:10;
+	box-shadow:8px 8px 15px rgba(0,0, 0, 0.4);
+	-webkit-transform:rotate(0deg) scale(1.2);
+	-o-transform:rotate(0deg) scale(1.2);
+	-moz-transform:rotate(0deg) scale(1.2);
+	-ms-transform:rotate(0deg) scale(1.2);
+	transform:rotate(0deg) scale(1.2);
+}
+
+/*
+#vlightbox1 .vlightbox1:before,#vlightbox1 .vlightbox1:after{
+    content:"";position:absolute;z-index:-1;bottom:8px;left:10px;width:50%;height:20%;max-width:300px;box-shadow:0 8px 16px rgba(0,0,0,0.6);
+    -webkit-transform:skew(-15deg) rotate(-6deg);
+    -moz-transform:skew(-15deg) rotate(-6deg);
+    -ms-transform:skew(-15deg) rotate(-6deg);
+    -o-transform:skew(-15deg) rotate(-6deg);
+    transform:skew(-15deg) rotate(-6deg)
+}
+#vlightbox1 .vlightbox1:after{
+    left:auto;right:10px;
+    -webkit-transform:skew(15deg) rotate(6deg);
+    -moz-transform:skew(15deg) rotate(6deg);
+    -ms-transform:skew(15deg) rotate(6deg);
+    -o-transform:skew(15deg) rotate(6deg);
+    transform:skew(15deg) rotate(6deg)
+}
+*/

@@ -1,0 +1,661 @@
+
+
+
+/* Media Queries */
+
+
+/* Smaller than standard 960 (devices and browsers) */
+   @media only screen and (max-width: 959px) {
+   }
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+   @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/* layout */
+#intro-top-line {
+background: url(../images/intro-top-line-2.png) no-repeat right;
+}
+
+#intro-top {
+font-size: 30px;
+line-height: 30px;
+margin: 14px 0 0 0;
+padding: 0 0 0 20px;
+}
+
+#intro-bottom-line {
+background: url(../images/intro-bottom-line-2.png) no-repeat left;
+margin: -8px 0 0 0;
+}
+
+#intro-bottom {
+font-size: 35px;
+line-height: 35px;
+margin: -14px 0 0 0;
+padding: 0 20px 0 0;
+}
+
+#intro-title {
+font-size: 140px;
+line-height: 140px;
+margin: 0 auto 10px auto;
+}
+
+h1 {
+font-size: 70px;
+line-height: 70px;
+}
+
+h2 {
+font-size: 25px;
+line-height: 25px;
+}
+
+/* countdown */
+ul#countdown li {
+width: 75px;
+}
+
+ul#countdown li span {
+font-size: 40px;
+line-height: 40px;
+}
+
+ul#countdown li span.seconds {
+font-size: 40px;
+line-height: 40px;
+}
+
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+font-size: 20px;
+}
+
+/* hidden countdown */
+ul#hidden-countdown li {
+width: 75px;
+}
+
+ul#hidden-countdown li span {
+font-size: 40px;
+line-height: 40px;
+}
+
+ul#hidden-countdown li span.seconds {
+font-size: 40px;
+line-height: 40px;
+}
+
+ul#hidden-countdown li p.timeRefDays,
+ul#hidden-countdown li p.timeRefHours,
+ul#hidden-countdown li p.timeRefMinutes,
+ul#hidden-countdown li p.timeRefSeconds {
+font-size: 20px;
+}
+
+/* menu */
+.menu {
+display: none;
+visibility: hidden;
+}
+
+/* menu mobile */
+.menu-mobile {
+position: fixed;
+font-family: 'BebasNeueRegular';
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+text-shadow: 1px 1px 2px #000;
+-webkit-font-smoothing: antialiased;
+width: auto;
+top: 38px;
+right: 46px;
+padding: 0;
+display: inherit;
+visibility: visible;
+z-index: 1000;
+}
+
+/* dividers */
+.divider-left-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-left-bottom {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-bottom {
+display: none;
+visibility: hidden;
+}
+
+   }
+
+
+/* All Mobile Sizes (devices and browser) */
+   @media only screen and (max-width: 767px) {
+   }
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+   @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* layout */
+#intro-wrapper {
+position: relative;
+top: 50px;
+}
+
+#intro-top-line {
+display: none;
+visibility: hidden;
+}
+
+#intro-top {
+font-size: 25px;
+line-height: 25px;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+#intro-bottom-line {
+display: none;
+visibility: hidden;
+}
+
+#intro-bottom {
+font-size: 25px;
+line-height: 25px;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+#intro-title {
+font-size: 65px;
+line-height: 65px;
+}
+
+.upper-page {
+background: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+font-size: 45px;
+padding: 35px 0 0 0;
+}
+
+h2 {
+font-size: 25px;
+}
+
+.lower-content {
+padding: 10px 0 0 0;
+}
+
+/* borders */
+.borders {
+display: none;
+visibility: hidden;
+}
+
+/* countdown */
+#countdown-wrapper {
+position: relative;
+bottom: 0;
+left: 0;
+margin: 0 auto 0 auto;
+padding: 100px 0 0 0;
+text-align: center;
+}
+
+ul#countdown li {
+width: 45px;
+}
+
+ul#countdown li span {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#countdown li span.seconds {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+font-size: 16px;
+}
+
+/* hidden countdown */
+ul#hidden-countdown li {
+width: 45px;
+}
+
+ul#hidden-countdown li span {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#hidden-countdown li span.seconds {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#hidden-countdown li p.timeRefDays,
+ul#hidden-countdown li p.timeRefHours,
+ul#hidden-countdown li p.timeRefMinutes,
+ul#hidden-countdown li p.timeRefSeconds {
+font-size: 16px;
+}
+
+/* launch time */
+.launch-time {
+position: relative;
+width: 165px;
+height: 30px;
+left: 0;
+bottom: 0;
+margin: 100px auto 0 auto;
+padding: 0;
+}
+
+.launch-time-clock {
+background: url(../images/launch-time-clock-2.png) no-repeat;
+height: 30px;
+}
+
+.launch-time-text {
+font-size: 20px;
+margin: -1px 0 0 45px;
+}
+
+/* menu */
+.menu {
+display: none;
+visibility: hidden;
+}
+
+/* menu mobile */
+.menu-mobile {
+position: relative;
+font-family: 'BebasNeueRegular';
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+text-shadow: 1px 1px 2px #000;
+-webkit-font-smoothing: antialiased;
+width: auto;
+top: 10px;
+right: 0;
+margin: 0;
+padding: 0 15px 0 0;
+display: inherit;
+visibility: visible;
+z-index: 1000;
+}
+
+/* contact form */
+#form-wrapper {
+width: 340px;
+}
+
+#form {
+width: 340px;
+}
+
+#form div {
+width: 340px;
+}
+
+#form div label {
+width: 325px;
+}
+
+#form input {
+width: 325px;
+}
+
+#form .subject {
+width: 337px;
+margin-bottom: 10px;
+}
+
+#form textarea {
+width: 325px;
+}
+
+#form .submit {
+margin-right: 3px;
+}
+
+.success {
+width: 340px;
+}
+
+#form .error {
+right: 5px;
+}
+
+/* newsletter form */
+#subscribe-wrapper {
+position: relative;
+bottom: 0;
+right: 0;
+margin: 0 auto 0 auto;
+padding: 50px 0 0 0;
+}
+
+.subscribesuccess {
+text-align: center;
+}
+
+/* social icons */
+.social-icons-wrapper {
+position: relative;
+top: 0;
+left: 0;
+margin: 0;
+padding: 11px 0 0 10px;
+}
+
+/* dividers */
+.divider-left-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-left-bottom {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-bottom {
+display: none;
+visibility: hidden;
+}
+
+/* preload content */
+.preload-content {
+display: none;
+visibility: hidden;
+}
+
+   }
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+   @media only screen and (max-width: 479px) {
+
+/* layout */
+#intro-wrapper {
+position: relative;
+top: 50px;
+}
+
+#intro-top-line {
+display: none;
+visibility: hidden;
+}
+
+#intro-top {
+font-size: 25px;
+line-height: 25px;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+#intro-bottom-line {
+display: none;
+visibility: hidden;
+}
+
+#intro-bottom {
+font-size: 25px;
+line-height: 25px;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+#intro-title {
+font-size: 65px;
+line-height: 65px;
+}
+
+.upper-page {
+background: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+font-size: 45px;
+padding: 35px 0 0 0;
+}
+
+h2 {
+font-size: 25px;
+}
+
+.lower-content {
+padding: 10px 0 0 0;
+}
+
+/* borders */
+.borders {
+display: none;
+visibility: hidden;
+}
+
+/* countdown */
+#countdown-wrapper {
+position: relative;
+bottom: 0;
+left: 0;
+margin: 0 auto 0 auto;
+padding: 100px 0 0 0;
+text-align: center;
+}
+
+ul#countdown li {
+width: 45px;
+}
+
+ul#countdown li span {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#countdown li span.seconds {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+font-size: 16px;
+}
+
+/* hidden countdown */
+ul#hidden-countdown li {
+width: 45px;
+}
+
+ul#hidden-countdown li span {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#hidden-countdown li span.seconds {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#hidden-countdown li p.timeRefDays,
+ul#hidden-countdown li p.timeRefHours,
+ul#hidden-countdown li p.timeRefMinutes,
+ul#hidden-countdown li p.timeRefSeconds {
+font-size: 16px;
+}
+
+/* launch time */
+.launch-time {
+position: relative;
+width: 165px;
+height: 30px;
+left: 0;
+bottom: 0;
+margin: 100px auto 0 auto;
+padding: 0;
+}
+
+.launch-time-clock {
+background: url(../images/launch-time-clock-2.png) no-repeat;
+height: 30px;
+}
+
+.launch-time-text {
+font-size: 20px;
+margin: -1px 0 0 45px;
+}
+
+/* menu */
+.menu {
+display: none;
+visibility: hidden;
+}
+
+/* menu mobile */
+.menu-mobile {
+position: relative;
+font-family: 'BebasNeueRegular';
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+text-shadow: 1px 1px 2px #000;
+-webkit-font-smoothing: antialiased;
+width: auto;
+top: 10px;
+right: 0;
+margin: 0;
+padding: 0 15px 0 0;
+display: inherit;
+visibility: visible;
+z-index: 1000;
+}
+
+/* contact form */
+#form-wrapper {
+width: 240px;
+}
+
+#form {
+width: 240px;
+}
+
+#form div {
+width: 240px;
+}
+
+#form div label {
+width: 225px;
+}
+
+#form input {
+width: 225px;
+}
+
+#form .subject {
+width: 237px;
+margin-bottom: 10px;
+}
+
+#form textarea {
+width: 225px;
+}
+
+#form .submit {
+margin-right: 3px;
+}
+
+.success {
+width: 240px;
+}
+
+#form .error {
+right: 5px;
+}
+
+/* newsletter form */
+#subscribe-wrapper {
+position: relative;
+bottom: 0;
+right: 0;
+margin: 0 auto 0 auto;
+padding: 50px 0 0 0;
+}
+
+.subscribesuccess {
+text-align: center;
+}
+
+/* social icons */
+.social-icons-wrapper {
+position: relative;
+top: 0;
+left: 0;
+margin: 0;
+padding: 11px 0 0 10px;
+}
+
+/* dividers */
+.divider-left-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-left-bottom {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-bottom {
+display: none;
+visibility: hidden;
+}
+
+/* preload content */
+.preload-content {
+display: none;
+visibility: hidden;
+}
+
+   }

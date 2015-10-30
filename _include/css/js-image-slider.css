@@ -1,0 +1,120 @@
+/* http://www.menucool.com */
+
+/*slider frame*/
+#slider1Frame {
+    width:630px; 
+    margin: 0 auto; /*center-aligned*/
+    background-color:White; 
+    padding-top:6px; 
+    border-radius: 6px 6px 6px 6px;
+}
+
+#slider1, #slider1 div.sliderInner {
+    width:630px;height:360px;/* Must be the same size as the slider images */
+}
+
+#slider1 {
+	background:transparent url(loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin:0 auto; /*center-aligned*/
+    transform: translate3d(0,0,0);
+}
+
+/* the link style (if slide image is wrapped in a link) */
+#slider1 a.imgLink, #slider1 .video {
+	z-index:2;
+	position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+#slider1 .video {
+	background:transparent url(video.png) no-repeat 50% 50%;
+}
+
+/* Caption styles */
+#slider1 div.mc-caption-bg, #slider1 div.mc-caption-bg2 {
+	position:absolute;
+	width:190px;
+	height:auto;
+	padding:20px;
+	right:30px; /* or left: ??px; */
+	bottom:260px;/* or top: ??px; */
+	z-index:3;
+	overflow:hidden;
+	font-size:0;
+}
+#slider1 div.mc-caption-bg {
+    /* NOTE: Its opacity is to be set through the sliderOptions.captionOpacity setting in the js-image-slider.js file.*/
+	background:White;/* or any other colors such as Black, or: background:none; */
+	border-radius: 5px;
+}
+#slider1 div.mc-caption-bg2 {
+    background:none;
+}
+#slider1 div.mc-caption {
+	font:bold 20px/25px Comic Sans MS;
+	color:#000000;
+	z-index:4;
+	padding:0px;
+	text-align:center;
+    background:none;
+}
+#slider1 div.mc-caption a { 
+	color:#66FFFF;
+}
+
+
+/* ------ built-in navigation bullets wrapper that is relative to the #slider ------*/
+#slider1 div.navBulletsWrapper  {
+	display:none;
+}
+
+/* --------- Others ------- */
+
+#slider1 div.loading 
+{
+    width:100%; height:100%;
+    background:transparent url(loading.gif) no-repeat 50% 50%;
+    filter: alpha(opacity=60);
+    opacity:0.6;
+    position:absolute;
+    left:0;
+    top:0; 
+    z-index:9;
+}
+
+#slider1 img, #slider1>b, #slider1 a>b {
+	position:absolute; border:none; display:none;
+}
+
+#slider1 div.sliderInner {
+	overflow:hidden; 
+	-webkit-transform: rotate(0.000001deg);/* fixed the Chrome not crop border-radius bug*/
+	position:absolute; top:0; left:0;
+}
+
+#slider1>a, #slider1 video, #slider1 audio {display:none;}
+
+
+
+/* -- thumbnails -- */
+#thumbs1
+{
+	background:white url(thumbs-bar.gif) repeat-x 0 0;
+	border:1px solid white; text-align:center;
+	font-size:0px;
+	line-height:30px;
+}
+#thumbs1 .thumb 
+{
+    width:60px;height:30px;
+    cursor:pointer;
+    text-align:center;
+    border-left:1px solid #FFF; border-right:1px solid #DDD; 
+    
+    display:inline-block;
+    *display:inline;zoom:1; /*IE Hack*/
+}
+#thumbs1 .thumb-on {background-image: url(active-bg.png);}
+#thumbs1 .thumb img {vertical-align:middle;}
+

@@ -1,0 +1,320 @@
+<?php include '_include/php/users_connectivity.php';//select the table 
+
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+	<head>
+<link rel="shortcut icon" href="_include/img/favicon.png" type="image/png">
+
+		<link rel="stylesheet" type="text/css" href="_include/css/custom.css">
+		<!--[if IE 9]>
+			 <style type="text/css">
+				.form-panel .input, .form-panel input, .form-panel textarea {
+					border-radius: 0;
+				}
+			 </style>
+		<![endif]-->
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Orion V2.14 | Origin of New idEEEas</title>   
+
+<meta name="auther" content="Som Prabh Sharma a.k.a. Mr. WorldWide" />
+<meta name="description" content="A Technical Feista Organised by IEEE in Govt. Engg. College, Ajmer" />
+<meta naem="keywords" content="Orion V2.14, Orion 2k14, Technical Festival, Tech Test, GECA, Govt. Engg. College Ajmer, Ajmer, ECA, 
+technology, competitions, events, workshop, exhibition, science, fest, technical, tech, college fest, IEEE, IEEE Student Chapter, IEEE Delhi Zone,
+ Tech Fest in India, Tech fest in ajmer, RTU" />
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+		<!-- cache control-->
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37529769-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<meta http-equiv="expires" value="Tue, 29 Mar 1983 07:20:55 GMT"/>
+
+		<meta http-equiv="Pragma" content="no-cache">
+		
+		<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<!-- cache control stop-->
+		<!-- Contact Form CSS files -->
+<link type='text/css' href='_include/css/contact1.css' rel='stylesheet' media='screen' />
+
+		
+	</head>
+
+<body>
+		<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Orion V2.14 | Origin of New idEEEas">Orion V2.14</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li><a href="index.html" class="external">HOME</a></li>
+					<li><a href="overview.html" class="external">Overview</a></li>
+				  <!--<li class="current"><a href="#newuser">New User</a></li>-->
+				  <li class="current"><a href="#registration">Prefest Registration</a>
+				                <li><a href="workshopevent.html" class="external">Prefest Events</a></li>
+                <!--<li><a href="events.html#events" class="external">EVENTS</a></li>-->
+				<li><a href="aboutus.html" class="external">ABOUT US</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+<div id="registration">
+		<div class="ex-form ui-helper-clearfix ui-corner-all">
+			<h1>Registration Form</h1>
+			<marquee id="page-alternate25">Registration Starts for only Prefest Workshops.</marquee>
+			<form method="POST" action="_include/php/workshopsubmit.php">
+				<div id="panel1" class="form-panel">
+				
+					<fieldset class="ui-corner-all">
+						<label>
+							<span class="title">Name:</span>
+							<span class="input"><input type="text" value=""  id="name1" name="name1" class="input1"></span>
+						</label>
+						<br><br><br>
+						<label>
+							<span class="title">Email:</span>
+							<span class="input"><input placeholder="someone@example.com" type="text" value=""  id="email1" name="email1" class="input1"></span>
+						</label>
+						<br><br><br>
+						<label>
+							<span class="title">Mobile:</span>
+							<span class="input"><input type="text" value=""  id="mob1" name="mob1" class="input1"></span>
+						</label>
+						<br><br><br>
+						<label>
+							<span class="title">College Name:</span>
+							<span class="input"><input type="text" value=""  id="col1" name="col1" class="input1"></span>
+						</label>
+						<br><br><br>
+						<label>
+							<span class="title">College ID:</span>
+							<span class="input"><input type="text" value=""  id="col2" name="col2" class="input1"></span>
+						</label>
+						<br><br><br>
+						<label>
+							<span class="title">Branch:</span>
+							<span class="input"><input placeholder="e.g. ECE" type="text" value=""  id="branch" name="branch" class="input1"></span>
+						</label>
+						<br><br><br>
+						<label>
+							<span class="title">Semester:</span>
+							<span class="input"><input placeholder="e.g. IV"type="text" value=""  id="semester" name="semester" class="input1"></span>
+						</label>
+						<br><br><br>
+						<!--<label>
+							<span class="title">Password:</span>
+							<span class="input"><input type="password" value=""  id="password" name="password" class="input1"></span>
+						</label>
+						<br><br><br><br>
+						<label>
+							<span class="title">Confirm Password:</span>
+							<span class="input"><input type="password" value=""  id="confirmpassword" name="confirmpassword" class="input1"></span>
+						</label>
+						<br><br><br><br>-->
+						<label>
+						<span class="title">Event Type:</span>
+						<select name="eventtypenew"><option value="Prefest Workshop">Prefest Workshop</option>
+							</select>
+						</label>
+						<br><br>
+						<label>
+						<span class="title">Event Name:</span>
+						<select name="eventnamenew"><option value="Robotics">Robotics</option><option value="Circuits & PCB Designing">Circuit & PCB Designing</option>
+						<option value="Robotics, Nework Security">Both</option>
+							</select>
+						</label>
+						<br>
+		
+						</fieldset>
+						
+			</div>	
+				
+				<div id="thanks" class="form-panel ui-helper-hidden">
+				  <h2>Almost Done</h2>
+					<fieldset class="ui-corner-all">
+					<br><input type="submit" id="submit" value="submit">
+					</fieldset>
+				</div>
+				
+			</form>
+			<span id="ename1">Please Fill In A Valid Name</span>
+		<span id="eteam">You have selected a team event</span>
+		<span id="emob1">Please Fill A Valid Mobile Number</span>
+		<span id="ecol1">Please Fill In A Valid College</span>
+		<span id="eemail1">Please Fill In A Valid Email Adress</span>
+		<span id="ebranch">Please Fill A Valid Branch<br>e.g. ECE</span>
+		<span id="esemester">Please Fill In A Valid Semester<br> e.g. VIII</span>
+		<span id="epassword">Please Fill In A Valid Password<br> size(8 to 13)</span>
+		<!--<span id="econfirmpassword">Password Do Not Match</span>-->
+<!--		<span id="ename2">Please Fill In A Valid Name<br> For Team Member #2</span>
+		<span id="emob2">Please Fill A Valid Mobile Number<br> For Team Member #2</span>
+		<span id="ecol2">Please Fill In A Valid College<br> For Team Member #2</span>
+		<span id="eemail2">Please Fill In A Valid Email Adress<br> For Team Member #1</span>
+		<span id="ename3">Please Fill In A Valid Name<br> For Team Member #3</span>
+		<span id="emob3">Please Fill A Valid Mobile Number<br> For Team Member #3</span>
+		<span id="ecol3">Please Fill In A Valid College<br> For Team Member #3</span>
+		<span id="eemail3">Please Fill In A Valid Email Adress<br> For Team Member #3</span>
+		<span id="ename4">Please Fill In A Valid Name<br> For Team Member #4</span>
+		<span id="emob4">Please Fill A Valid Mobile Number<br> For Team Member #4</span>
+		<span id="ecol4">Please Fill In A Valid College<br> For Team Member #4</span>
+		<span id="eemail4">Please Fill In A Valid Email Adress<br> For Team Member #4</span>
+		<span id="use">Please Enter A Username</span>
+		<span id="er1">Sorry, The Username Is Taken.<br> Please Choose Another</span>
+		<span id="event">Please Select At Least One Event</span>
+		<span id="spojm">You Have Selected Bytes.<br> Please Enter Your CodeChef ID</span>   -->
+				<button id="next">Next <span>&#9654;</span></button><button id="back" disabled="disabled"><span>&#9664;</span> Back</button>
+		</div>
+		</div>
+		<script type="text/javascript" src="_include/js/jquery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#back').css("display","none");
+				$('#thanks').hide();
+				$('#eteam').hide();
+				$('#use').hide();
+				$('#ename1').hide();
+				$('#emob1').hide();
+				$('#eemail1').hide();
+				$('#ecol1').hide();
+				$('#ebranch').hide();
+				$('#esemester').hide();
+				$('#epassword').hide();
+				$('#econfirmpassword').hide();
+				var q=0;
+				var i=0;
+				$('#ver').removeClass('.form-panel');
+				$(".ex-form button").click(function(e) {
+					e.preventDefault();
+					$('#ename1').hide();
+					$('#emob1').hide();
+					$('#eemail1').hide();
+					$('#ecol1').hide();
+					$('#ebranch').hide();
+					$('#esemester').hide();
+					$('#epassword').hide();
+					$('#econfirmpassword').hide();
+					if($(this).attr('id')=='next')
+					{
+						if(i==0)
+						{
+							r=p1check();
+							if(r==1)
+							{	$('#next').css("display","none");
+								$('#panel2').hide();
+								$('#thanks').fadeIn(2000);
+								++i;
+								$('#next').attr('disabled','disabled')
+							}
+						}
+					}
+					else if($(this).attr('id')=='back')
+					{
+						if(i==2)
+						{	$('#next').css("display","block");
+							$('#thanks').hide();
+							$('#panel2').fadeIn(2000);
+							--i;
+							$('#next').attr('disabled',null);
+						}
+						else if(i==1)
+						{	$('#back').css("display","none");
+							$('#panel2').hide();
+							$('#panel1').fadeIn(2000);
+							--i;
+							$('#back').attr('disabled','disabled');
+							$('#next').attr('disabled',null);
+						}
+					}
+					});
+					
+				function p1check() {
+					var a1=$('#name1').val();
+					var b1=$('#email1').val();
+					var c1=$('#mob1').val();
+					var d1=$('#col1').val();
+					var e1=$('#col2').val();
+					var f1=$('#branch').val();
+					var g1=$('#semester').val();
+					
+					var ph=/^[0-9\-\+]+$/;
+					var em=/^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+					var na=/^[a-zA-Z\ ]+$/;
+					var br=/^[a-zA-Z\ ]+$/;
+					var se=/^[I\V]+$/;
+					if(!na.test(a1))
+						{
+							$('#ename1').fadeIn(1000);
+							return 0;
+						}
+					if(!em.test(b1))
+						{
+							$('#eemail1').fadeIn(1000);
+							return 0;
+						}
+					if(!ph.test(c1)||c1.length<10)
+						{
+							$('#emob1').fadeIn(1000);
+							return 0;
+						}
+					if(!ph.test(c1)||c1.length>10)
+						{
+							$('#emob1').fadeIn(1000);
+							return 0;
+						}
+					if(d1.length<3)
+						{
+							$('#ecol1').fadeIn(1000);
+							return 0;
+						}
+					if(!br.test(f1)||f1.length>5)
+						{
+							$('#ebranch').fadeIn(1000);
+							return 0;
+						}
+					if(!se.test(g1)||g1.length>4)
+						{
+							$('#esemester').fadeIn(1000);
+							return 0;
+						}
+					
+					return 1;
+				}
+
+});
+		</script>
+		<script type='text/javascript' src='_include/js/jquery.simplemodal.js'></script>
+		<!--<script type="text/javascript" src="contact.js"></script>-->
+ 
+	</body>
+</html>
+
+ <!---->
